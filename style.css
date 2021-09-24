@@ -1,0 +1,278 @@
+
+*{
+
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+
+    background-image: url(./images/minecraft-fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+
+
+.homework-input{
+
+    position: absolute;
+    background-color: rgba(75, 55, 55, 0.788);
+    width: 60%;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    
+}
+
+input{
+
+    position: absolute;
+    width: 48%;
+    border-left: 0; border-right: 0; border-top: 0;  border-color: rgba(255, 255, 255, 0.788);
+    padding: 10px;
+    outline: none;
+    background-color: rgba(75, 55, 55, 0);
+    border-style: solid;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgb(218, 211, 211)
+
+}
+
+input:focus{
+
+    border-color: greenyellow;
+    transition: all .3s ease;
+}
+
+::placeholder{
+
+    color: rgba(255, 255, 255, 0.705);
+    text-align: center;
+}
+
+.homework-input div{
+
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.title{
+
+    color: rgb(180, 175, 175)
+
+}
+
+#add{
+
+    width: 190px;
+    position: relative;
+    transform: translateY(-20%);
+    background-color: green;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    left: 50%;
+    transform: translate(-100%);
+    margin-top: 70px;
+}
+
+#add:hover{
+
+    background-color: greenyellow;
+    color: rgb(34, 27, 27);
+    transition: all .4s ease-in-out;
+
+}
+
+#remall{
+
+    width: 190px;
+    position: relative;
+    transform: translateY(-20%);
+    background-color: red;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    left: 50%;
+    transform: translate(-90%);
+    margin-top: 70px;
+
+}
+
+#remall:hover{
+
+    background-color: rgba(245, 88, 88, 0.904);
+    transition: all .4s ease-in-out;
+}
+
+
+ul{
+    max-width: 50%  ;
+    color: white;
+    margin: auto;
+
+}
+
+
+
+ul li{
+
+    margin-top: 55px;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin-left: 10px;
+    width: 100%;
+    border-left: 0; border-right: 0; border-top: 0;
+    font-size: 1em;
+    list-style: none;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+ul img{
+    
+    position: relative;
+    bottom: 15px
+}
+
+ul img:hover{
+
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 787px){
+
+    .homework-input{
+
+        width: 100%;
+        height: auto;
+
+    }
+
+}
+
+@media screen and (max-width: 437px){
+
+    .homework-input{
+
+        padding-bottom: 100px;
+
+        
+    }
+    
+    #add{
+
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 60px
+    }
+
+    
+    #remall{
+
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 155px;
+
+    }
+
+
+
+    ul li{
+        
+        position: static;
+        margin-top: 90px;
+        top: 60px;
+        text-align: left;
+        border: none
+    }
+    
+    img{
+        position: relative;
+        left: 46vw;
+        top: -10px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 241px){
+    .homework-input{
+
+        width: 100%;
+        padding-bottom: 150px;
+
+        
+    }
+
+    #remall{
+        
+
+        position: relative;
+        top: -50px
+
+    }
+
+    ul li{
+        
+        position: absolute;
+        top: 290px;
+        text-align: left;
+        border: none
+    }
+
+
+}
+
+@media screen and (max-width: 204px){
+
+    button{
+
+        max-width: 50vw;
+
+    }
+
+    #add{
+
+        font-size: 0.9em
+    }
+
+    #remall{
+
+        font-size: 0.9em    
+        
+    }
+
+
+}
+
