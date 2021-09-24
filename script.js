@@ -13,7 +13,6 @@ const buttonRem     = document.getElementById("remall");
 const tasks = JSON.parse(localStorage.getItem("key")) || []
 
     
-
 function showTasks(){
 
     ul_element.innerHTML = ''
@@ -34,19 +33,13 @@ function showTasks(){
         element_img.align = 'right';
 
         element_img.setAttribute("onclick", `remTasks(this)`);
-
-        
-        
+   
     }
-
-
-    
 
 }
 
 
 showTasks()
-
 
 function addTasks(){
 
@@ -64,10 +57,6 @@ function addTasks(){
         
     }
 
-
-
-
-
 }
 
 buttonAdd.setAttribute("onclick", 'addTasks()')
@@ -79,13 +68,11 @@ function remTasks(e){
     showTasks()
     Storage()
 
- 
-
-
 }
 
 
 buttonRem.setAttribute("onclick", 'remAllTasks()')
+
 
 function remAllTasks(){
     
@@ -94,46 +81,9 @@ function remAllTasks(){
     
 }
 
+
 function Storage(){
 
     localStorage.setItem("key", JSON.stringify(tasks))
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
