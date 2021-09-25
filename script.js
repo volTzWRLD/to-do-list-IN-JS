@@ -76,8 +76,10 @@ buttonRem.setAttribute("onclick", 'remAllTasks()')
 
 function remAllTasks(){
     
-    localStorage.removeItem("key");
+    localStorage.clear();
+    showTasks();
     ul_element.innerHTML = '';
+    tasks.splice(list)
     
 }
 
