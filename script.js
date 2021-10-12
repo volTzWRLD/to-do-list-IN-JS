@@ -29,7 +29,7 @@ function showTasks(){
         ul_element.appendChild   (element_of_li);
 
 
-        element_img.src   = './images/user-trash-icon.png';
+        element_img.src   = './images/trash-bin.png';
         element_img.align = 'right';
 
         element_img.setAttribute("onclick", `remTasks(this)`);
