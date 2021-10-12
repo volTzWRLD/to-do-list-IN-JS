@@ -8,7 +8,7 @@
 
 body{
 
-    background-image: url(./images/minecraft-fundo.jpg);
+    background-image: url(./images/fundo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,13 +22,11 @@ body{
 .homework-input{
 
     position: absolute;
-    background-color: rgba(75, 55, 55, 0.788);
-    width: 60%;
+    background: rgb(2,0,36);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 40%;
     height: auto;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    left: 50%;
-    top: 50%;
+    padding-bottom: 50px;padding-top: 30px;
+    left: 50%;top: 50%;
     transform: translate(-50%,-50%);
     border-radius: 50px;
     
@@ -51,8 +49,9 @@ input{
 
 input:focus{
 
-    border-color: greenyellow;
+    border-color: rgb(77, 177, 202);
     transition: all .3s ease;
+
 }
 
 ::placeholder{
@@ -70,7 +69,13 @@ input:focus{
 
 .title{
 
-    color: rgb(180, 175, 175)
+    color: rgb(255, 255, 255)
+
+}
+
+.paragraph{
+
+    color: white
 
 }
 
@@ -79,7 +84,7 @@ input:focus{
     width: 190px;
     position: relative;
     transform: translateY(-20%);
-    background-color: green;
+    background-color: rgb(2, 120, 255);
     border: none;
     color: black;
     font-size: 20px;
@@ -91,8 +96,9 @@ input:focus{
 
 #add:hover{
 
-    background-color: greenyellow;
+    background-color: rgb(10, 217, 253);
     color: rgb(34, 27, 27);
+    cursor: pointer;
     transition: all .4s ease-in-out;
 
 }
@@ -102,7 +108,7 @@ input:focus{
     width: 190px;
     position: relative;
     transform: translateY(-20%);
-    background-color: red;
+    background-color: rgb(252, 78, 78);
     border: none;
     color: black;
     font-size: 20px;
@@ -115,8 +121,10 @@ input:focus{
 
 #remall:hover{
 
-    background-color: rgba(245, 88, 88, 0.904);
+    background-color: rgba(182, 12, 12, 0.904);
     transition: all .4s ease-in-out;
+    cursor: pointer;
+    
 }
 
 
