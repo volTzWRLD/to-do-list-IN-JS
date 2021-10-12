@@ -22,7 +22,7 @@
   <ul><li><h2>Available resources</h2></li>
   <li>You can add it to your tasks, to see it later</li><br>
   <li>Even if you leave the page, your tasks will be there. Being able to visit later.</li><br>
-  <li>It has three buttons, add, remove, and remove all</li><br>
+  <li>It has three buttons, add, remove, and remove all</li>
   </ul><br>
 
   <ul><li><h2>Page</h2></li>
